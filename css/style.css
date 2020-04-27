@@ -86,8 +86,12 @@ img {
 }
   
 .text-hover {
-    background-color: rgb(8, 34, 9);
+    
     color: white;
     font-size: 16px;
     padding: 16px 32px;
+}
+
+.fa {
+    color: black;
 }
