@@ -1,0 +1,90 @@
+.row-header {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer {
+    background-color: #d4d2d6;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin-top: 50px;
+    margin: 0px auto;
+    background: #dadada;
+    color: #453d4d;
+}
+
+.address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+.body {
+    margin: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color: #512da8;
+}
+
+.img-thumbnail {
+    height: 250px;
+    width: 250px;
+}
+
+img {
+    object-fit: cover;
+    align-self: center;
+}
+
+/* image hover overlay effects */
+
+.container-hover {
+    position: relative; 
+}
+  
+.image-hover {
+    opacity: 1;
+    display: block;
+    
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.middle-hover {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.container-hover:hover .image-hover {
+    opacity: 0.3;
+}
+  
+.container-hover:hover .middle-hover {
+    opacity: 1;
+}
+  
+.text-hover {
+    background-color: rgb(8, 34, 9);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
