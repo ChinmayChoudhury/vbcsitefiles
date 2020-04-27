@@ -52,7 +52,10 @@ img {
 /* image hover overlay effects */
 
 .container-hover {
-    position: relative; 
+    position: relative;
+    width: 250px;
+    height: 250px; 
+    align-self: center;
 }
   
 .image-hover {
