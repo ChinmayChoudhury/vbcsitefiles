@@ -1,6 +1,10 @@
 body {
     background-color: #e9ebf0;
     color: #4c505f;
+    background-image: url('/img/trial.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .row-header {
@@ -13,6 +17,10 @@ body {
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
     min-height: 400px;
+}
+
+.transbox1 {
+    background-color:rgba(255, 255, 255, 0.6);
 }
 
 .footer {
