@@ -1,3 +1,8 @@
+body {
+    background-color: #e9ebf0;
+    color: #4c505f;
+}
+
 .row-header {
     margin: 0px auto;
     padding: 0px auto;
@@ -11,7 +16,8 @@
 }
 
 .footer {
-    background-color: #d4d2d6;
+    background-color: #4c505f;
+    color: #e9ebf0;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
@@ -20,8 +26,8 @@
     padding: 70px 30px 70px 30px;
     margin-top: 50px;
     margin: 0px auto;
-    background: #dadada;
-    color: #453d4d;
+    background: #4c505f;
+    color: #e9ebf0;
 }
 
 .address {
@@ -36,7 +42,12 @@
 }
 
 .navbar-dark {
-    background-color: #512da8;
+    background-color: #4c505f;
+}
+
+.nav-item {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 .img-thumbnail {
@@ -47,6 +58,14 @@
 img {
     object-fit: cover;
     align-self: center;
+}
+
+.dropdown-menu {
+    background-color: #4c505f;
+}
+
+.dropdown-item {
+    color: white;
 }
 
 /* image hover overlay effects */
@@ -92,8 +111,14 @@ img {
     padding: 16px 32px;
 }
 
-.fa {
+.fa1 {
+    margin: 0.3em;
     color: black;
-    margin: .3em;
+    font-size: 3em;
+}
+
+.fa2 {
+    margin: 0.3em;
+    color:#e9ebf0;
     font-size: 3em;
 }

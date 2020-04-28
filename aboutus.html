@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- This is the file used for about us page -->
+
 <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
@@ -17,7 +17,7 @@
 
 <body>
 
-    <header class="jumbotron">
+    <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-md-6">
@@ -25,11 +25,65 @@
                     <h1>Visual Bloggers' Club</h1>
                 </div>
                 <div class="col-12 offset-md-3 col-md-3">
-                    <img src="img/logo.png" height="160" width="150" alt="VBC">
+                    <img src="img/logo.png" height="160" width="150" alt="VBC" class="float-right">
                 </div>
             </div>
         </div>
     </header>
+
+    <nav class="navbar sticky-top navbar-dark navbar-expand-md">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon">
+
+                </span>
+            </button>
+            <a class="navbar-brand mr-auto" href="#"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Originals</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Categories
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Technology</a>
+                          <a class="dropdown-item" href="#">Humour</a>
+                          <a class="dropdown-item" href="#">TV Series</a>
+                          <a class="dropdown-item" href="#">Travel</a>
+                          <a class="dropdown-item" href="#">Sports</a>
+                          <a class="dropdown-item" href="#">Image Gallery</a>
+                          <a class="dropdown-item" href="#">Education</a>
+                          <a class="dropdown-item" href="#">Food</a>
+                          <a class="dropdown-item" href="#">Fashion</a>
+                          <a class="dropdown-item" href="#">Motivational</a>
+                          <a class="dropdown-item" href="#">Relationship</a>
+                          <a class="dropdown-item" href="#">Entertainment</a>
+                          <a class="dropdown-item" href="#">Philosophy</a>
+                          
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Events
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Riviera</a>
+                          <a class="dropdown-item" href="#">GraVITas</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Weekly</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#">About Us</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <div class="container">
         <div class="row row-content text-center">
@@ -38,10 +92,10 @@
                 <br>
                 <center>
                 <div class="container-hover">
-                    <img src="img/Ruchir.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle" alt="Founder">
+                    <img src="img/Ruchir.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle border border-secondary" alt="Founder">
                     <div class="middle-hover">
                         <div class="text-hover">
-                            <a href="http://www.linkedin.com/in/" target="_blank"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/ruchir-arora-836526100/" target="_blank"><i class="fa fa-lg fa-linkedin fa1" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -59,11 +113,11 @@
                 <br>
                 <center>
                 <div class="container-hover">
-                    <img src="img/Swagata.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle" alt="Chairperson">
+                    <img src="img/Swagata.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle border border-secondary" alt="Chairperson">
                     <div class="middle-hover">
                         <div class="text-hover">
-                            <!-- <a href="#" target="_blank"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a> -->
-                            <a href="https://www.instagram.com/swagatakashyap/" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
+                            <a href="http://www.wrytin.com/swagatakashyap" target="_blank"><i class="fa fa-lg fa-commenting fa1" aria-hidden="true"></i></a>
+                            <a href="http://www.instagram.com/swagatakashyap" target="_blank"><i class="fa fa-lg fa-instagram fa1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -75,11 +129,13 @@
                 <br>
                 <center>
                 <div class="container-hover">
-                    <img src="img/Awani.jpeg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle" alt="ViceChairperson">
+                    <img src="img/Awani.jpeg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle border border-secondary" alt="ViceChairperson">
                     <div class="middle-hover">
                         <div class="text-hover">
-                            <a href="http://www.linkedin.com/in/awanikendurkar" target="_blank"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="http://www.instagram.com/idiosyncrasies.exe" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
+                            <a href="http://www.linkedin.com/in/awanikendurkar" target="_blank"><i class="fa fa-lg fa-linkedin fa1" aria-hidden="true"></i></a>
+                            <a href="http://www.instagram.com/idiosyncrasies.exe" target="_blank"><i class="fa fa-lg fa-instagram fa1"></i></a>
+                            <a href="https://anecdotesbyawani.wordpress.com/" target="_blank"><i class="fa fa-lg fa-wordpress fa1"></i></a>
+                            <a href="https://github.com/awanikendurkar" target="_blank"><i class="fa fa-lg fa-github fa1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -91,11 +147,12 @@
                 <br>
                 <center>
                 <div class="container-hover">
-                    <img src="img/Chinmay.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle" alt="Technical">
+                    <img src="img/Chinmay.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle border border-secondary" alt="Technical">
                     <div class="middle-hover">
                         <div class="text-hover">
-                            <a href="https://www.linkedin.com/in/chinmay-nrusingh-choudhury-881601178/" target="_blank"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="http://www.instagram.com/_w.damian" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/chinmay-nrusingh-choudhury-881601178/" target="_blank"><i class="fa fa-lg fa-linkedin fa1" aria-hidden="true"></i></a>
+                            <a href="http://www.instagram.com/_w.damian" target="_blank"><i class="fa fa-lg fa-instagram fa1"></i></a>
+                            <a href="https://github.com/chinmay69" target="_blank"><i class="fa fa-lg fa-github fa1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -107,11 +164,11 @@
                 <br>
                 <center>
                 <div class="container-hover">
-                    <img src="img/Ananthika.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle" alt="Editorial">
+                    <img src="img/Ananthika.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle border border-secondary" alt="Editorial">
                     <div class="middle-hover">
                         <div class="text-hover">
-                            <!-- <a href="" target="_blank"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a> -->
-                            <a href="http://www.instagram.com/hp_sensei" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/ananthika-anand-b12910183/" target="_blank"><i class="fa fa-lg fa-linkedin fa1" aria-hidden="true"></i></a>
+                            <a href="http://www.instagram.com/hp_sensei" target="_blank"><i class="fa fa-lg fa-instagram fa1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -123,11 +180,11 @@
                 <br>
                 <center>
                 <div class="container-hover">
-                    <img src="img/Bhuvan.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle" alt="Management">
+                    <img src="img/Bhuvan.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle border border-secondary" alt="Management">
                     <div class="middle-hover">
                         <div class="text-hover">
-                            <a href="https://www.linkedin.com/in/bhuvanendra-guttikonda-842080172" target="_blank"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="http://www.instagram.com/aurian_manian" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
+                            <a href="http://www.linkedin.com/in/bhuvanendra-guttikonda-842080172" target="_blank"><i class="fa fa-lg fa-linkedin fa1" aria-hidden="true"></i></a>
+                            <a href="http://www.instagram.com/aurian_manian" target="_blank"><i class="fa fa-lg fa-instagram fa1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -139,11 +196,11 @@
                 <br>
                 <center>
                 <div class="container-hover">
-                    <img src="img/Gaurang.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle" alt="Events">
+                    <img src="img/Gaurang.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle border border-secondary" alt="Events">
                     <div class="middle-hover">
                         <div class="text-hover">
-                            <a href="https://www.linkedin.com/in/gaurang-salunke-453a811a4/" target="_blank"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="https://www.instagram.com/endlessly_4ever_/" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
+                            <a href="http://www.linkedin.com/in/gaurang-salunke-453a811a4" target="_blank"><i class="fa fa-lg fa-linkedin fa1" aria-hidden="true"></i></a>
+                            <a href="http://www.instagram.com/endlessly_4ever_" target="_blank"><i class="fa fa-lg fa-instagram fa1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -155,11 +212,11 @@
                 <br>
                 <center>
                 <div class="container-hover">
-                    <img src="img/Sneha.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle" alt="Design">
+                    <img src="img/Sneha.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle border border-secondary" alt="Design">
                     <div class="middle-hover">
                         <div class="text-hover">
-                            <a href="https://www.linkedin.com/in/sneha-jaiswal-2b62337a" target="_blank"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="http://www.instagram.com/sneha_jaz" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
+                            <a href="http://www.linkedin.com/in/sneha-jaiswal-2b62337a" target="_blank"><i class="fa fa-lg fa-linkedin fa1" aria-hidden="true"></i></a>
+                            <a href="http://www.instagram.com/sneha_jaz" target="_blank"><i class="fa fa-lg fa-instagram fa1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -171,11 +228,11 @@
                 <br>
                 <center>
                 <div class="container-hover">
-                    <img src="img/Neha.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle" alt="PR">
+                    <img src="img/Neha.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle border border-secondary" alt="PR">
                     <div class="middle-hover">
                         <div class="text-hover">
-                            <a href="https://www.linkedin.com/in/neha-swaminathan-803035182" target="_blank"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="https://www.instagram.com/nehaswaminathan?r=nametag" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
+                            <a href="http://www.linkedin.com/in/neha-swaminathan-803035182" target="_blank"><i class="fa fa-lg fa-linkedin fa1" aria-hidden="true"></i></a>
+                            <a href="http://www.instagram.com/nehaswaminathan?r=nametag" target="_blank"><i class="fa fa-lg fa-instagram fa1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -187,11 +244,11 @@
                 <br>
                 <center>
                 <div class="container-hover">
-                    <img src="img/Shruti.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle" alt="DocFin">
+                    <img src="img/Shruti.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle border border-secondary" alt="DocFin">
                     <div class="middle-hover">
                         <div class="text-hover">
-                            <a href="https://twitter.com/ShrutiKabra8" target="_blank"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a>
-                            <a href="http://www.instagram.com/Shubhika4" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
+                            <a href="https://twitter.com/ShrutiKabra8" target="_blank"><i class="fa fa-lg fa-twitter fa1" aria-hidden="true"></i></a>
+                            <a href="http://www.instagram.com/Shubhika4" target="_blank"><i class="fa fa-lg fa-instagram fa1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -203,11 +260,11 @@
                 <br>
                 <center>
                 <div class="container-hover">
-                    <img src="img/Ayushi.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle" alt="Operations">
+                    <img src="img/Ayushi.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle border border-secondary" alt="Operations">
                     <div class="middle-hover">
                         <div class="text-hover">
-                            <a href="https://instagram.com/ayushi._.1710?igshid=yuo6sqii4pjz" target="_blank"><i class="fa fa-lg fa-instagram" aria-hidden="true"></i></a>
-                            <a href="https://instagram.com/thoughts._.and._.poetry?igshid=hsqigqc3lsku" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
+                            <a href="http://www.instagram.com/ayushi._.1710" target="_blank"><i class="fa fa-lg fa-instagram fa1"></i></a>
+                            <a href="http://www.instagram.com/thoughts._.and._.poetry" target="_blank"><i class="fa fa-lg fa-instagram fa1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -219,11 +276,13 @@
                 <br>
                 <center>
                 <div class="container-hover">
-                    <img src="img/Eeshan.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle" alt="Outreach">
+                    <img src="img/Eeshan.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle border border-secondary" alt="Outreach">
                     <div class="middle-hover">
                         <div class="text-hover">
-                            <!-- <a href="" target="_blank"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a> -->
-                            <!-- <a href="http://www.instagram.com/" target="_blank"><i class="fa fa-lg fa-instagram"></i></a> -->
+                            <!--
+                            <a href="http://www.linkedin.com/in/awanikendurkar" target="_blank"><i class="fa fa-lg fa-linkedin fa1" aria-hidden="true"></i></a>
+                            <a href="http://www.instagram.com/idiosyncrasies.exe" target="_blank"><i class="fa fa-lg fa-instagram fa1"></i></a>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -235,12 +294,13 @@
                 <br>
                 <center>
                 <div class="container-hover">
-                    <img src="img/Shaolin.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle" alt="Creative">
+                    <img src="img/Shaolin.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle border border-secondary" alt="Creative">
                     <div class="middle-hover">
                         <div class="text-hover">
-                            <a href="https://in.linkedin.com/in/shaolink" target="_blank"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="https://www.instagram.com/shaolinkataria/" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
-                            <a href="https://m.youtube.com/user/ShaolinKataria" target="_blank"><i class="fa fa-lg fa-youtube"></i></a>
+                            <a href="http://www.linkedin.com/in/shaolink" target="_blank"><i class="fa fa-lg fa-linkedin fa1" aria-hidden="true"></i></a>
+                            <a href="http://www.instagram.com/shaolinkataria" target="_blank"><i class="fa fa-lg fa-instagram fa1"></i></a>
+                            <a href="https://m.youtube.com/user/ShaolinKataria" target="_blank"><i class="fa fa-lg fa-youtube-play fa1"></i></a>
+
                         </div>
                     </div>
                 </div>
@@ -252,11 +312,11 @@
                 <br>
                 <center>
                 <div class="container-hover">
-                    <img src="img/Sanchita.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle" alt="Media">
+                    <img src="img/Sanchita.jpg" width="250" height="250" class="image-hover img-fluid img-responsive rounded-circle border border-secondary" alt="Media">
                     <div class="middle-hover">
                         <div class="text-hover">
-                            <a href="https://www.linkedin.com/in/sanchita-vidyarthi-2a2728184/" target="_blank"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="http://www.instagram.com/sanchitaa_" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
+                            <a href="http://www.linkedin.com/in/sanchita-vidyarthi-2a2728184" target="_blank"><i class="fa fa-lg fa-linkedin fa1" aria-hidden="true"></i></a>
+                            <a href="http://www.instagram.com/sanchitaa_" target="_blank"><i class="fa fa-lg fa-instagram fa1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -267,10 +327,33 @@
         </div>
     </div>
 
-        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <footer class="footer">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-md-6">
+                    <figure class="figure">
+                    <img src="img/vitlogovish.png" class="float-right figure-img img-fluid img-responsive">
+                    <!--
+                    <figcaption  style="color: whitesmoke;" class="figure-caption text-center">Logo powered by <a href="http://instagram.com/allthevisheshstuff" target="_blank" style="color: whitesmoke;"><i class="fa fa-instagram" target="_blank"></i>&nbsp;/vi.sex.h</a></figcaption>
+                    -->
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    Made with <i class="fa fa-heart"></i> in VIT<br><br>
+                    © 2020 Visual Bloggers' Club<br><br>
+                    <a href="https://www.facebook.com/vbcvit" target="_blank"><i class="fa fa-facebook fa-lg fa2"></i></a>
+                    <a href="https://twitter.com/vbcvit" target="_blank"><i class="fa fa-twitter fa-lg fa2"></i></a>
+                    <a href="https://www.linkedin.com/company/visual-bloggers-club-vbc-vit/" target="_blank"><i class="fa fa-linkedin fa-lg fa2"></i></a>
+                    <a href="http://instagram.com/vbc_vit"><i class="fa fa-instagram fa-lg fa2" target="_blank"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
