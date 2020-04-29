@@ -1,7 +1,7 @@
 body {
-    background-color: #e9ebf0;
+    background-color:rgba(219, 192, 177, 0.2);
     color: #4c505f;
-    background-image: url('/img/trial.jpg');
+    /* background-image: url('/img/header1.jpeg'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -15,17 +15,19 @@ body {
 .row-content {
     margin: 0px auto;
     padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
+    
     min-height: 400px;
 }
 
 .transbox1 {
-    background-color:rgba(255, 255, 255, 0.6);
+    background-color:rgba(219, 192, 177, 0.2);
+    border-color: #DBC0B1;
+    border-width: 10px;
 }
 
 .footer {
-    background-color: #4c505f;
-    color: #e9ebf0;
+    background-color: #DBC0B1; 
+    color: white;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
@@ -34,8 +36,9 @@ body {
     padding: 70px 30px 70px 30px;
     margin-top: 50px;
     margin: 0px auto;
-    background: #4c505f;
-    color: #e9ebf0;
+    background-color:rgba(219, 192, 177, 0.6);
+    color: #4c505f;
+    
 }
 
 .address {
@@ -50,7 +53,7 @@ body {
 }
 
 .navbar-dark {
-    background-color: #4c505f;
+    background-color: #DBC0B1;
 }
 
 .nav-item {
@@ -69,11 +72,15 @@ img {
 }
 
 .dropdown-menu {
-    background-color: #4c505f;
+    background-color: #DBC0B1;
 }
 
 .dropdown-item {
     color: white;
+}
+
+.contact-us {
+    background-color:rgba(219, 192, 177, 0.6);
 }
 
 /* image hover overlay effects */
@@ -127,6 +134,6 @@ img {
 
 .fa2 {
     margin: 0.3em;
-    color:#e9ebf0;
+    color:white;
     font-size: 3em;
 }
