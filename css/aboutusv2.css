@@ -1,10 +1,19 @@
-body .custom1 {
+.custom1 {
     background-color: #FFFFFF;
     font-family: 'Muli', sans-serif;
     color: #000;
 }
 
+.custom2 {
+    background-color: #FFFFFF;
+    font-family: 'Muli', sans-serif;
+    color: #000;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .navbar {
+    border-top: 1px #333333 ridge;
     border-bottom: 1px #333333 ridge;
     background-color: #FFFFFF;
 }
@@ -30,12 +39,12 @@ li, a, ul {
     color: #000;
 }
 
-#form1 {   
-    text-align: center;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    font-family: 'Muli', sans-serif;
-    color: #000;
+a:hover { 
+    color: #333333; 
+}
+
+.active {
+    text-decoration: underline;
 }
 
 .pill {
@@ -44,6 +53,22 @@ li, a, ul {
 
 .black-bg {
     background-color: #000;
+}
+
+.header1 {
+    font-family: merriweather,serif;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: middle;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header2 {
+    font-family: merriweather,serif;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: middle;
 }
 
 .footer1 {
@@ -61,10 +86,6 @@ li, a, ul {
     font-size: 3em;
 }
 
-a:hover { 
-    color: #333333; 
-}
-
-.active {
-    text-decoration: underline;
+.temp {
+    margin: 200px;
 }
