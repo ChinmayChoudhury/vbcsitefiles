@@ -5,7 +5,7 @@
 }
 
 .custom2 {
-    background-color: #FFFFFF;
+    
     font-family: 'Muli', sans-serif;
     color: #000;
     margin-top: 100px;
@@ -29,9 +29,7 @@
 }
 
 .navbar {
-    border-top: 1px #333333 ridge;
-    border-bottom: 1px #333333 ridge;
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .navbar-nav > li {
@@ -53,6 +51,12 @@
 li, a, ul {
     font-family: 'Muli', sans-serif;
     color: #000;
+}
+
+.navbar-heading {
+    font-family: merriweather,serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 a:hover { 
@@ -111,9 +115,84 @@ a:hover {
     src: url('../fonts/cursiveFont1.ttf') 
 }
 
-.trial {
+.cursive-font {
     font-family: 'cursive1';
     font-size: 32px;
+}
+
+/* LANDING PAGE COMPONENTS */
+
+.merri {
+    font-family: merriweather,serif;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: middle;
+    font-size: 70px;
+}
+
+.merri-small {
+    font-family: merriweather,serif;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.grey-pretext {
+    color: #757575;
+    text-decoration: double;
+}
+
+.blogger {
+    background-image: url('../img/index/lightblue.png');
+    background-size: 75% auto;
+    background-repeat: no-repeat;
+}
+
+.blogger-small {
+    background-image: url('../img/index/lightblue.png');
+    background-size: 75% 75%;
+    background-repeat: no-repeat;
+}
+
+.events {
+    background-image: url('../img/index/white.png');
+    background-size: 25% 100%;
+    background-repeat: no-repeat;
+    background-color: #f0fbc0;
+
+}
+
+.events-small {
+    background-image: url('../img/index/lightgreen.png');
+    background-size: 75% 75%;
+    background-repeat: no-repeat;
+}
+
+.explore {
+    background-image: url('../img/index/lightpink.png');
+    background-size: 75% auto;
+    background-repeat: no-repeat;
+}
+
+.explore-small {
+    background-image: url('../img/index/lightpink.png');
+    background-size: 75% 75%;
+    background-repeat: no-repeat;
+}
+
+.team {
+    background-image: url('../img/index/white.png');
+    background-size: 25% 100%;
+    background-repeat: no-repeat;
+    background-color: #FFFAA8;
+
+}
+
+.team-small {
+    background-image: url('../img/index/lightyellow.png');
+    background-size: 75% 75%;
+    background-repeat: no-repeat;
 }
 
 /* IMAGE HOVER OVERLAY EFFECTS */
@@ -161,7 +240,6 @@ a:hover {
 /* BACKGROUND TRIAL */
 
 body {
-    background-image: url(../img/bg/girl.jpg);
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
