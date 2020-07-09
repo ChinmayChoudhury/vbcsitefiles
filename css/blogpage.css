@@ -1,3 +1,5 @@
+/* BASIC */
+
 .custom1 {
     background-color: #FFFFFF;
     font-family: 'Muli', sans-serif;
@@ -7,17 +9,12 @@
 .custom2 {
     font-family: 'Muli', sans-serif;
     color: #000;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    font-size: 20px;
 }
 
 .row {
     padding-bottom: 30px;
     padding-top: 30px;
-}
-
-.row1 {
-    border-bottom: 1px solid #666666;
 }
 
 .title1 {
@@ -98,6 +95,12 @@ a:hover {
     vertical-align: middle;
 }
 
+.fa1 {
+    margin: 0.1em;
+    color: black;
+    font-size: 2em;
+}
+
 .fa2 {
     margin-top: 0.1em;
     margin-right: 0.3em;
@@ -116,85 +119,42 @@ a:hover {
 
 .cursive-font {
     font-family: 'cursive1';
-    font-size: 32px;
+    font-size: 72px;
 }
 
-/* LANDING PAGE COMPONENTS */
+/* BLOGPAGE COMMPONENTS */
 
-.merri {
-    font-family: merriweather,serif;
-    font-weight: 400;
-    font-style: normal;
-    vertical-align: middle;
-    font-size: 70px;
+.card-columns {
+    display: inline-block;
 }
 
-.merri-small {
-    font-family: merriweather,serif;
-    font-weight: 400;
-    font-style: normal;
-    vertical-align: middle;
-    font-size: 50px;
+.card-title {
+    font-family: 'Muli', sans-serif;
+    color: #000;
+    font-size: 25px;
 }
 
-.grey-pretext {
-    color: #757575;
-    text-decoration: double;
+.card-text {
+    font-family: 'Muli', sans-serif;
+    color: #000;
+    font-size: 17px;
 }
 
-.blogger {
-    background-image: url('../img/index/lightblue.png');
-    background-size: 75% auto;
-    background-repeat: no-repeat;
+.card {
+    background-color: #fff;
+    transition: transform .5s; /* Animation */
 }
 
-.blogger-small {
-    background-image: url('../img/index/lightblue.png');
-    background-size: 75% 75%;
-    background-repeat: no-repeat;
+.page-link {
+    color: #000000;
+    border: 0px;
 }
 
-.events {
-    background-image: url('../img/index/white.png');
-    background-size: 25% 100%;
-    background-repeat: no-repeat;
-    background-color: #f0fbc0;
-
+.card:hover {
+    transform: scale(1.1); /* Animation */
 }
 
-.events-small {
-    background-image: url('../img/index/lightgreen.png');
-    background-size: 75% 75%;
-    background-repeat: no-repeat;
-}
-
-.explore {
-    background-image: url('../img/index/lightpink.png');
-    background-size: 75% auto;
-    background-repeat: no-repeat;
-}
-
-.explore-small {
-    background-image: url('../img/index/lightpink.png');
-    background-size: 75% 75%;
-    background-repeat: no-repeat;
-}
-
-.team {
-    background-image: url('../img/index/white.png');
-    background-size: 25% 100%;
-    background-repeat: no-repeat;
-    background-color: #FFFAA8;
-
-}
-
-.team-small {
-    background-image: url('../img/index/lightyellow.png');
-    background-size: 75% 75%;
-    background-repeat: no-repeat;
-}
-
-/* EXTRA EFFECTS */
+/* FADE IN EFFECT */
 
 @keyframes fadeIn {
     0% {opacity: 0;}
