@@ -1,0 +1,35 @@
+
+/* This is to replace original arrow of select in add post form.
+	reference=> https://stackoverflow.com/a/43867308/13621845 
+*/
+
+select{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        appearance: none; 
+        background-color: #ffffff !important;
+    }
+
+
+select + i.fa {
+    float: right;
+    margin-top: -26px;
+    margin-right: 10px;
+    /* this is so when you click on the chevron, your click actually goes on the dropdown menu */
+    pointer-events: none;
+    /* everything after this is just to cover up the original arrow */
+    /* (for browsers that don't support the syntax used above) */
+    background-color: transparent;
+    color:black!important;
+    padding-right: 5px;
+}
+
+select option{
+	padding-right: 21px;
+}
+
+.btn{
+	font-family: futura-pt, sans-serif;
+	font-weight: bolder;
+}
